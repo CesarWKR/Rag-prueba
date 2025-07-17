@@ -47,7 +47,7 @@ Crea un archivo `.env` con tu clave de OpenAI:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Clona el repositorio
-git clone <URL-del-repo>
+git clone https://github.com/CesarWKR/Rag-prueba.git
 cd PRUEBA_TECNICA
 
 ## python -m venv env

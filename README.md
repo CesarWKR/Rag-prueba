@@ -24,19 +24,19 @@ Combina recuperación semántica con FAISS, embeddings multilingües y generaci�
 
 ##  Estructura del proyecto
 PRUEBA_TECNICA/
-│
-├── docs/ # Contiene el PDF técnico
-│ └── gg243376.pdf
-│
-├── env/ # Entorno virtual (en .gitignore)
-├── .env # Variables de entorno (API Key)
-├── .gitignore # Archivos ignorados por Git
-│
-├── rag_chunks.pkl # Fragmentos de texto ya procesados (binario)
-├── rag_index.index # Índice FAISS persistente (binario)
-│
-├── rag_prueba.py # Script principal para usar el sistema RAG
-├── requirements.txt # Lista de dependencias
+Documents/
+-- Documento PDF
+Results/
+-- Imagen con output del código
+docs/ # Contiene el PDF técnico
+-- gg243376.pdf
+ env/ # Entorno virtual (en .gitignore)
+.env # Variables de entorno (API Key)
+.gitignore # Archivos ignorados por Git
+rag_chunks.pkl # Fragmentos de texto ya procesados (binario)
+ rag_index.index # Índice FAISS persistente (binario)
+rag_prueba.py # Script principal para usar el sistema RAG
+requirements.txt # Lista de dependencias
 
 
 ##  Variables de entorno
@@ -63,5 +63,5 @@ python rag_prueba.py
 
 
 ## Resultado
-
-![Vista previa del sistema](Results/Resultado.jpg)
+El resultado se encuentra en la carpeta Results
+(Results/Resultado.jpg)

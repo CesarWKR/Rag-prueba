@@ -60,3 +60,8 @@ pip install -r requirements.txt
 
 ## Ejecución
 python rag_prueba.py
+
+
+## Resultado
+
+![Vista previa del sistema](Results/Resultado.jpg)
